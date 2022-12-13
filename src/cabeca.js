@@ -12,5 +12,4 @@ function Natal()
     </nav>
   );
 }
-
 export default Natal;
