@@ -1,0 +1,41 @@
+.container
+{
+    top:0;
+    bottom:0;
+    width:0;
+    height:0;
+}
+
+.footer
+{
+    background-color:#000000;
+    position: fixed;
+    top:90%;
+    bottom:0%;
+    width: 100%;
+    height: 7em;
+}
+
+.termos
+{
+    position: absolute;
+    width: 100%;
+    color:#FFFFFF;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+}
+    
+.logo
+{
+    position:absolute;
+    bottom: 10%;
+    right:5%;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 16px;
+}
+
+

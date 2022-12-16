@@ -1,0 +1,42 @@
+.container{
+   position: relative;
+
+}
+
+.titulo{
+   color: black;
+
+}
+
+.paragrafo{
+
+   position: absolute;
+   width: 40em;
+   height: 150em;
+   left: 200em;
+   top: 80em;
+     
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: justify;
+   color: black;
+    
+}
+
+.comentario{
+
+    
+}
+
+.imagem{
+
+    
+}
+
+.legenda{
+
+   
+}

@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import './index.css';
-//import App from './App';
 import reportWebVitals from './reportWebVitals';
-import BarraSuperior from './BarraSuperior';
-import Imagem1 from './imagem1';
+import Menu from './components/menu/menu';
+import Topo from './components/Topo/Topo';
+import FooterIDE from './components/Footeride/footeride';
+import Sobre from './components/Sobre/Sobre';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-  <BarraSuperior/>
-  <Imagem1/>
+
+  <Topo/>
+  <Menu/>
+  <Sobre/>
+  <FooterIDE/>
+
+
 
   </React.StrictMode>
 );

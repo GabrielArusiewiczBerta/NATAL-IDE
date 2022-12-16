@@ -1,0 +1,24 @@
+.container
+{
+    background-color:#4A0101;
+    position: absolute;
+    width: 100%;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+    text-align:center;
+    display:flex;
+    justify-content:space-between;
+}
+
+h3
+{
+    color:#FFFFFF;
+    display:inline-block;
+    text-transform:uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin:9px 10%;
+}

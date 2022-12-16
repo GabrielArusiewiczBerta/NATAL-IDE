@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    color: white;
+}
+
+.FotoTopo{
+/*
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    left:0px;*/
+
+    position: relative;
+    width: 100%;
+    height: 28em; 
+    
+}
+
+.FraseTopo{
+
+   /* position: absolute;
+    width: 80%;         
+    height: auto;
+    
+
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 2em;
+    color: rgb(248, 248, 248);
+
+    text-align: left;
+    */
+
+    position: absolute;
+    width: 11em;
+    height: 5em;
+    top: 5em;
+    left: 2em;
+
+    font-family: Arial;
+    font-weight: 900;
+    font-size: 3em;
+    color: #FFFFFF;
+
+    text-align: justify;
+
+}
+
+.Degrade{
+/*
+    position: absolute;
+    width: 100%;
+    height: 5em;
+    top: 17em;
+
+    background-image: linear-gradient(transparent, #780000);
+*/
+
+position: absolute;
+width: 100%;
+height: 8em;
+top: 19em;
+
+background-image: linear-gradient(transparent, #780000);
+
+}
