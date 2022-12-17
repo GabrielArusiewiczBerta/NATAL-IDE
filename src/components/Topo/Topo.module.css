@@ -1,6 +1,18 @@
+/* Carol: alterei a posicao para alinhar com a largura da tela
 .container {
     position: relative;
     color: white;
+}*/
+
+* { margin: 0; padding: 0; }
+
+.container {
+    position: relative;
+    color: white;
+    left:0em;;
+    width: 100%;
+
+    background-color: aqua;
 }
 
 .FotoTopo{
@@ -11,9 +23,17 @@
     margin: auto;
     left:0px;*/
 
+    /* Carol: alterei a posicao para alinhar com a largura da tela
     position: relative;
     width: 100%;
-    height: 28em; 
+    height: 28em;*/ 
+
+    position: relative;
+    width: 100%;
+    left:0px;
+    margin: 0;
+    padding: 0;
+    /*height: 28em;*/
     
 }
 
@@ -35,15 +55,18 @@
     position: absolute;
     width: 11em;
     height: 5em;
-    top: 5em;
-    left: 2em;
+    bottom: -1.5em;
+    left: 1.5em;
 
     font-family: Arial;
     font-weight: 900;
     font-size: 3em;
-    color: #FFFFFF;
+    color: #ffffff;
 
-    text-align: justify;
+    text-align: left;
+
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -60,7 +83,8 @@
 position: absolute;
 width: 100%;
 height: 8em;
-top: 19em;
+bottom: 0em;
+left:0em;
 
 background-image: linear-gradient(transparent, #780000);
 

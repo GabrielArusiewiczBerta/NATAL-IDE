@@ -3,21 +3,23 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import Menu from './components/menu/menu';
 import Topo from './components/Topo/Topo';
+import Produtos from './components/Produtos/Produtos';
 import FooterIDE from './components/Footeride/footeride';
 import Sobre from './components/Sobre/Sobre';
+import Siga from './components/Siga/Siga';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-
-  <Topo/>
-  <Menu/>
-  <Sobre/>
-  <FooterIDE/>
-
-
-
+      <Topo/>
+      <Menu/>
+      <Produtos/>
+      <Sobre/>
+      <Siga/>
+      <FooterIDE/>
+  
   </React.StrictMode>
 );
 

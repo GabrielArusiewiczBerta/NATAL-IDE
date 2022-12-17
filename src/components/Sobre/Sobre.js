@@ -3,11 +3,11 @@ import styles from './Sobre.module.css'
 
 function Sobre ()
 {
+    return(
     <div className={styles.container}>
-
-        <title className={styles.titulo}>
-            SOBRE A LOJA
-        </title>
+        <div className={styles.titulo}>
+            <p>SOBRE A LOJA</p>
+        </div>
         <p className={styles.paragrafo}>
             A loja DecorHouse é a loja ideal para decorar a sua casa em situações festivas. 
          Possuimos decorações para deixar a sua casa com o ambiente que desejar, do natal 
@@ -16,17 +16,18 @@ function Sobre ()
          A DecorHouse possui os melhores preços da região, vendendo produtos de qualidade pelo 
          melhor preço do mercado. 
         </p>
-
-        <i className={styles.comentario}>
+        <div className={styles.rectangle2}><div className={styles.rectangle1}><i className={styles.comentario}>
             Neste ano devido a proximidade da Copa do Mundo ao Natal estamos fazendo uma promoção futenatalina,
             com decorações de natal e da copa com até 40% de desconto.
-        </i>
+        </i></div></div>
 
-        <igm className= {styles.imagem} src={Mesa} alt='Mesa'/>
+        <img className= {styles.imagem} src={Mesa} alt='Mesa'/>
 
-        <p className={styles.legenda}>
-            É NA DECORHOUSE QUE VOCÊ ENCONTRA O QUE FAZ A SUA CASA SUA!
-        </p>
+        <div className={styles.legenda}>
+            <p>É NA DECORHOUSE QUE VOCÊ ENCONTRA O QUE FAZ A SUA CASA SUA!</p>
+        </div> 
     </div>
+    )
 }
+
 export default Sobre

@@ -1,42 +1,88 @@
-.container{
-   position: relative;
+* { margin: 0; padding: 0; }
 
+.container {
+   position:relative;
+   top: 11em;
+   width:100%;
 }
 
 .titulo{
-   color: black;
-
+   position:absolute;
+   margin: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   color:white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   padding:3px;
+   font-size: 16px;
+   top:-1em;
+   width:min-content;
+   width: 20%;
+   background-color:#780000;
+   text-align:center;
 }
 
 .paragrafo{
-
-   position: absolute;
-   width: 40em;
-   height: 150em;
-   left: 200em;
-   top: 80em;
+   position: relative;
+   width: 60%;
+   top: 2em;
      
-   font-family: 'Poppins';
+   font-family:Arial, Helvetica, sans-serif;
    font-style: normal;
    font-weight: 300;
    font-size: 14px;
    line-height: 21px;
    text-align: justify;
    color: black;
-    
+   margin-left: 20%;
 }
 
 .comentario{
-
-    
+   position: relative;
+   padding-left: 5%;
+   font-family:Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: justify;
+   color: black;   
 }
 
-.imagem{
+.rectangle1 {
+   position: relative;
+   width: 80%;
+   margin-left: 10%;
+   height:fit-content;
+ }
+ .rectangle2 {
+   position: relative;
+   width: 60%;
+   margin-left: 20%;
+   height:fit-content;
+   top:3em;
+   border-left: 5px solid #780000;
+   background-color: #cebbbb;
+ }
 
-    
+.imagem{
+   position: relative;
+   top:4em;
+   width: 60%; 
+   margin-left: 20%;
 }
 
 .legenda{
-
-   
+   position: relative;
+   width: 60%;
+   left:20%;
+   top:7em;
+   font-family:Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: .7em;
+   line-height: 1em;
+   color: black; 
+   text-align: center;
 }
